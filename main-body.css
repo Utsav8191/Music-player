@@ -26,7 +26,7 @@ main {
  flex-direction: column;
  /* justify-content: space-between; */
  align-items: flex-start;
- border: 2px solid white;
+ /* border: 2px solid white; */
 }
 
 .carousel-section {
@@ -34,7 +34,7 @@ main {
   height: 18rem;
   display: flex;
   justify-content: space-between;
-  border: 2px solid rgb(73, 230, 34);
+  /* border: 2px solid rgb(73, 230, 34); */
 }
 .card {
   width: 32%;
