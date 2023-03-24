@@ -10,8 +10,8 @@ header {
   /* linear-gradient(to right, #34e89e, #0f3443) --pacific-dream-- */
 }
 .nav-bar {
-  width: 100%;
-  height: 6rem;
+  width: 100vw;
+  height: 13vh;
   background: var(--nav-bg-color);
   display: flex;
   justify-content: space-evenly;
@@ -22,17 +22,24 @@ header {
 /* Dividing the nave into left and right sections,Left contain the logo and "Favourites" anchor*/
 
 .left-section {
-  width: 40%;
-  height: 100%;
+  width: 37%;
+  height: 99%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.left-section img {
-  width: 5.2rem;
-  height: 88%;
-  border-radius: 50%;
+.logo-img {
   object-fit: cover;
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  /* border: 2px dotted rgb(17, 231, 17); */
+}
+.logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .left-section a {
   color: var(--font-color);
@@ -41,6 +48,7 @@ header {
   letter-spacing: .1rem;
   font-size: .9rem;
   margin-left: 8rem;
+  
 }
 .left-section a:hover {
   color: var(--text-hover-color);
@@ -54,6 +62,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  /* border: 2px dotted rgb(82, 117, 211); */
 }
 .search-bar {
   width: 20rem;
@@ -95,6 +104,13 @@ header {
   font-size: 1.3rem;
   margin-right: 8rem;
 }
+.hamburger {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--font-color);
+  font-size: 1.3rem;
+  display: none;
+}
 .bell-icon i:hover {
   transform: scale(1.2);
   color: var(--text-hover-color);
@@ -103,9 +119,8 @@ header {
 /* Profile Image */
 
 .profile-img {
-  width: 4rem;
-  height: 4rem;
-
+  width: 8%;
+  height: auto;
 }
 .profile-img img {
   width: 100%;

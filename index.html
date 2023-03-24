@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="main-body.css">
+  <link rel="stylesheet" href="responsive.css">
   <script defer src="https://kit.fontawesome.com/d13d4de4a3.js" crossorigin="anonymous"></script>
   <title>Homepage</title>
 </head>
@@ -22,8 +23,9 @@
     <nav class="nav-bar">
       <!-- Left section of nav -->
       <div class="left-section">
+        <div class="logo-img">
         <img src="assets/main-logo.jpeg" alt="Logo">
-
+        </div>
         <a href="#">Favourites</a>
       </div>
       <!-- Right section of nav -->
@@ -38,26 +40,32 @@
       <div class="profile-img">
         <img src="assets/profile-logo.jpg" alt="profile image">
       </div>
+      
+      <div class="hamburger">
+        <a href="#">
+        <i class="fa-sharp fa-solid fa-bars" style="color: #e6e6e6;"></i>
+        </a>
+      </div>
     </div>
     </nav>
   </header>
 
   <main>
     <section class="carousel-section">
-      <div class="card item-1">
+      <div class="card">
         <img src="assets/Carousel-item1.png" alt="Carousel-item">
       </div>
-      <div class="card item-2">
-        <img src="assets/Carousel-item2.jpg" alt="Carousel-item">
+      <div class="card">
+        <img src="assets/carousel-002.jpg" alt="Carousel-item">
       </div>
-      <div class="card item-3">
+      <div class="card">
         <img src="assets/Carousel-item3.jpg" alt="Carousel-item">
       </div>
     </section>
     <!-- Latest Release Section -->
     <section>
-       <h3 class="title-text">Latest Release</h3>
-
+       <h3 class="artist-title-center title-text subtitle-center-820px ">Latest Release</h3>
+      
        <div class="row1 box-row1">
         <div class="box">
           <a href="#" class="latest-release-anchor">
@@ -94,6 +102,7 @@
             </ul>
           </div>
         </div>
+
         <!------ Box-2 ------->
         <div class="box">
           <a href="#" class="latest-release-anchor">
@@ -206,20 +215,21 @@
             </ul>
           </div>
         </div>
+        
        </div>       
     </section>
     <!----- Popular Artists Section ----->
     <section>
-      <h3 class="title-text">Popular Artists</h3>
-      <div class="artists-section">
-    <div class="artist-card">
-      <a href="#" class="artist-card-anchor">
-        <div id="artist-img1" class="artist-img-container">
-          <i class="fa-solid fa-circle-play" style="color: #f03e3e;"></i>
-        </div>
-      </a>
-      <p class="artist-title">Ed Sheeran</p>
-    </div>
+      <h3 class="artist-title-center title-text subtitle-center-820px ">Popular Artists</h3>
+    <div class="artists-section">
+      <div class="artist-card">
+        <a href="#" class="artist-card-anchor">
+          <div id="artist-img1" class="artist-img-container">
+            <i class="fa-solid fa-circle-play" style="color: #f03e3e;"></i>
+          </div>
+        </a>
+        <p class="artist-title">Ed Sheeran</p>
+      </div>
     <div class="artist-card">
       <a href="#" class="artist-card-anchor">
         <div id="artist-img2" class="artist-img-container">
@@ -264,7 +274,7 @@
     </section>
     <!---- Radio Stations ---->
     <section>
-      <h3 class="title-text">Radio Stations</h3>
+      <h3 class="title-text artist-title-center subtitle-center-820px ">Radio Stations</h3>
       <div class="radio-stations">
         
         <div class="radio-icon">
@@ -280,7 +290,7 @@
           <p>Devotion</p>
         </div>
         <div id="radio-point-04" class="radio-points">
-          <p>Workout</p>
+          <p>GYM</p>
         </div>
         <div id="radio-point-05" class="radio-points">
           <p>Love</p>
@@ -310,7 +320,7 @@
 
     <!--- Latest English --->
     <section>
-      <h3 class="title-text">Latest English</h3>
+      <h3 class="title-text subtitle-center-576px subtitle-center-820px ">Latest English</h3>
       <div class="latest-En-container">
         <div class="latest-En-card">
           <div class="latest-En_img">
@@ -371,7 +381,7 @@
     </section>
     <!-- Latest Hindi -->
     <section>
-      <h3 class="title-text">Latest Hindi</h3>
+      <h3 class="title-text subtitle-center-576px subtitle-center-820px ">Latest Hindi</h3>
       <div class="latest-En-container">
         <div class="latest-En-card">
           <div class="latest-En_img">
