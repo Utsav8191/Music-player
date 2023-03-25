@@ -1,0 +1,114 @@
+:root {
+  --playbar-bg-color: linear-gradient(to right, #232526, #414345);
+  --main-font-family: 'Open Sans', sans-serif;
+}
+/* <!-- Fixed bottom play bar --> */
+#fixed-playbar {
+  width: 100vw;
+  height: 12vh;
+  position: fixed;
+  /* border: 1.8px dashed rgb(62, 255, 13); */
+  background: var(--playbar-bg-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  bottom: 0px;
+}
+.left-section-playbar {
+  width: 18%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+  /* border: 1.5px dotted rgb(16, 187, 230); */
+}
+.img-container {
+  width: 3rem;
+  height: 3rem;
+  border: 1.5px dotted white;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-content {
+  width: 55%;
+}
+.text-content p {
+  color: rgb(233, 231, 231);
+  margin: 0;
+  font-family: var(--main-font-family);
+  font-size: 1.2rem;
+}
+.text-content p:nth-child(2n) {
+  color: rgb(167, 164, 164);
+  font-size: .8rem;
+}
+.icon i {
+  color: white;
+  font-size: .6rem;
+}
+
+.middle-section {
+  width: 35%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  /* border: 1.8px dotted rgb(16, 187, 230); */
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons i {
+  font-size: 1rem;
+  padding: 0rem 1rem;
+}
+.buttons .pause-btn {
+  font-size: 1.8rem;
+  color: rgb(233, 40, 40);
+  cursor: pointer;
+}
+.buttons i:first-child,
+.buttons i:last-child {
+  font-size: .7rem;
+}
+.range {
+  text-align: center;
+}
+.range> input {
+  width: 90%;
+  height: 5px;
+  cursor: pointer;
+  padding-right: .4rem;
+}
+.time-stamp span {
+  font-size: .7rem;
+  color: white;
+} 
+.right-section-playbar {
+  width: 18%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  /* border: 1.5px dotted rgb(16, 187, 230); */
+}
+
+.right-section-playbar i,
+.vol-icons i{
+  font-size: .7rem;
+  color: white;
+  padding-right: .3rem;
+}
+.right-section-playbar> input {
+  width: 45%;
+  height: 3px;
+  cursor: pointer;
+}
