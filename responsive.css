@@ -95,12 +95,12 @@
     /*-- Popular Artists Section --*/
     .artists-section {
       width: 100%;
-      height: 18vh;
+      height: 19vh;
       justify-content: space-evenly;
       /* border: 2px solid rgb(230, 26, 60); */
     }
     .artist-card {
-      width: 16%;
+      width: 15%;
       border: 1.8px solid rgb(209, 207, 207);
     }
     .artist-img-container {
@@ -166,6 +166,36 @@
       text-align: center;
       font-size: 1.9rem;
     }
+    /*----Fixed Bottom Playbar----*/
+    #fixed-player {
+      height: 8vh;
+      justify-content: space-evenly;
+    }
+    .icon {
+      display: none;
+    }
+    .left-section-playbar {
+      width: 35%;
+    }
+    .text-content {
+      width: 65%;
+    }
+    .img-container {
+      width: 4rem;
+      height: 4rem;
+    }  
+    .range {
+      display: none;
+    }
+    .middle-section {
+      width: 30%;
+    }
+    .buttons i {
+      padding: 0rem .6em;
+    }
+    .right-section-playbar {
+      width: 25%;
+    }      
 }
 
 /*-------------------------******------------------------*/
@@ -326,6 +356,82 @@
       letter-spacing: 1.3px;
       font-weight: 500;
     }
+    
+    /*  <!--Fixed bottom play bar -->*/
+    #fixed-playbar {
+      /* border: 1.8px dashed rgb(62, 255, 13); */
+      height: 8vh;
+      justify-content: space-around;
+    }
+    .left-section-playbar {
+      width: 60%;
+      height: 80%;
+      justify-content: space-around;
+    }
+    .img-container {
+      width: 3.2em;
+      height: 3.1em;
+      border: 1.5px dotted white;
+    }
+    .text-content {
+      width: 60%;
+    }
+    .icon i {
+      color: white;
+      font-size: .7em;
+      display: none;
+    }
+    .text-content p {
+      font-size: 1.3em;
+    }
+    .middle-section {
+      display: none;
+    }
+    .play-btn-576px {
+      display: block;
+    }
+    .play-btn-576px i {
+      color: red;
+      font-size: 2.2em;
+    }    
+
+    .img-container {
+      width: 3.2em;
+      height: 3.1em;
+      border: 1.5px dotted white;
+    }
+    .text-content {
+      width: 60%;
+    }
+    .icon i {
+      color: white;
+      font-size: .7em;
+      display: none;
+    }
+    .text-content p {
+      font-size: 1.2em;
+    }
+    .buttons i {
+      padding: 0rem .6em;
+    }
+    .buttons .pause-btn {
+      font-size: 2em;
+    }
+    .time-stamp span {
+     display: none;
+    }
+    .right-section-playbar {
+      display: none;
+    }
+    .right-section-playbar i,
+    .vol-icons i{
+      font-size: .7rem;
+      padding-right: .5em;
+    }
+    .right-section-playbar> input {
+      width: 42%;
+      height: 3px;
+    }  
 
  }
 

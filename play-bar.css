@@ -40,15 +40,15 @@
   color: rgb(233, 231, 231);
   margin: 0;
   font-family: var(--main-font-family);
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 .text-content p:nth-child(2n) {
   color: rgb(167, 164, 164);
-  font-size: .8rem;
+  font-size: .7em;
 }
 .icon i {
   color: white;
-  font-size: .6rem;
+  font-size: .6em;
 }
 
 .middle-section {
@@ -56,9 +56,11 @@
   height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  
+  justify-content: space-around;  
   /* border: 1.8px dotted rgb(16, 187, 230); */
+}
+.play-btn-576px {
+  display: none;
 }
 .buttons {
   width: 100%;
@@ -67,29 +69,29 @@
   align-items: center;
 }
 .buttons i {
-  font-size: 1rem;
-  padding: 0rem 1rem;
+  font-size: 1.1em;
+  padding: 0rem 1em;
 }
 .buttons .pause-btn {
-  font-size: 1.8rem;
+  font-size: 1.8em;
   color: rgb(233, 40, 40);
   cursor: pointer;
 }
 .buttons i:first-child,
 .buttons i:last-child {
-  font-size: .7rem;
+  font-size: .7em;
 }
 .range {
   text-align: center;
 }
 .range> input {
   width: 90%;
-  height: 5px;
+  height: .2em;
   cursor: pointer;
-  padding-right: .4rem;
+  padding-right: .5em;
 }
 .time-stamp span {
-  font-size: .7rem;
+  font-size: .7em;
   color: white;
 } 
 .right-section-playbar {
@@ -105,7 +107,7 @@
 .vol-icons i{
   font-size: .7rem;
   color: white;
-  padding-right: .3rem;
+  padding-right: .4em;
 }
 .right-section-playbar> input {
   width: 45%;
