@@ -1,0 +1,95 @@
+:root {
+  --main-bg-color:   #1a0405;   
+  --cell-bg-color: linear-gradient(to right, #200122, #6f0000);
+  --cell-font-primary-color: rgb(248, 248, 248);
+  --cell-font-secondary-color: rgba(197, 197, 197, 0.822);  
+  --main-font-family: 'Open Sans', sans-serif;
+  --main-font-color: #f7f5f5;
+  --main--font-color-secondary: rgb(189, 187, 187); 
+  --hover-effect: inset 0px 0px 28px 40px rgba(141, 219, 243, 0.61);
+}
+
+
+@media only screen and (max-width: 820px) {
+  
+  .aside-single-artist {
+    display: none;;
+  }
+  .About-artist-section {
+    height: 36vh;
+  }
+  .playlist-section {
+    height: 48vh;
+  }
+  /*-- Bottom Play-bar --*/
+  #fixed-playbar {
+    height: 10vh;
+  }
+  .middle-section {
+    width: 38%;
+    height: 80%;
+  }  
+}
+
+@media only screen and (max-width: 576px) {
+  .About-artist-section {
+    height: 30vh;
+  }
+  .about-details-container {
+    font-size: .7em;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+  }
+  .artist-img {
+    width: 37%;
+    height: 100%;
+    /* overflow: hidden; */
+   }
+     /*-- Bottom Play-bar --*/
+  #fixed-playbar {
+    height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  main {
+    height: 1000px;
+  }
+  .About-artist-section {
+    height: 22vh;
+  }
+  .about-title-container h2 {
+    font-size: 1.4em;
+    margin: 2px;
+    text-decoration: none;  
+   }
+   .artist-country p {
+    color: rgb(179, 190, 201);
+    font-size: 0.6em;
+   }
+   #read-more-425px {
+    display: block;
+   }
+   #read-more-425px a{
+    text-decoration: none;
+   }
+   #read-more-425px p {
+    font-family: var(--main-font-family);
+    color: lightgreen;
+    font-size: .8em;
+    margin: .4px 2px;
+   } 
+  .about-details-container {  
+    display: none; 
+  }
+  .Play-all-btn {
+    width: 5.5rem;
+    height: 1.7em;
+  }
+  /*--Bottom Song list--*/
+  .playlist-section {
+    width: 96%;
+    height: 56vh;
+    margin-top: 1.4em;
+  }  
+}  
